@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    
+}
+.wrapper{
+    text-align: center;
+    margin-top: 60px;
+    padding: 10px;
+}
+input{
+    width: 20%;
+    height: 6vh;
+    border-radius: 5px;
+    border: 2px solid rgb(204, 191, 191);
+    margin-top: 20px;
+}
+input::placeholder{
+    padding-left: 10px;
+    color: rgb(204, 191, 191);
+}
+label{
+    padding-right: 50px;
+    justify-content: space-between;
+    
+}
+.name{
+    padding-right: 183px;
+    margin-bottom: 15px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.email{
+    padding-right: 183px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+}
+.password{
+    padding-right: 158px;
+    margin-bottom: 15px;
+}
+.confirm{
+    padding-right: 155px;
+    margin-top: 5px;
+}
+button{
+    bottom: 20px;
+    width: 20%;
+    background-color: rgb(48, 185, 48);
+    height: 6vh;
+    border: none;
+    margin-top: 20px;
+}
+form{
+    margin-top: 50px;
+}
